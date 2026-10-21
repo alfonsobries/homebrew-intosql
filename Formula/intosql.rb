@@ -1,27 +1,27 @@
 class Intosql < Formula
   desc "Spreadsheets, CSV and JSON into SQL your database accepts on the first try"
   homepage "https://intosql.com"
-  version "0.5.0"
+  version "0.6.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.5.0/intosql-0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d332bac0792d2291ef3c95b891056780a9a596a855c93a08b824221f1e2293ec"
+      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.6.0/intosql-0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a05f0fba540ded37c9eca833f32dca8713c8a1520fbdf58a444d2a84862770d7"
     end
     on_intel do
-      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.5.0/intosql-0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "18ea068584eecccdd1107ff80c577e8468bc9b5905e376341ec2d0af53ece683"
+      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.6.0/intosql-0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fcc95aeb20bdc9844809279ef4595f6440a08ff4723b7d574b4e5c27a71acb59"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.5.0/intosql-0.5.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ce722f4da1883a6c7453d77e4ee9f4db371c87460271f7755968247eff4d3f16"
+      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.6.0/intosql-0.6.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "33a6ef0599e0cddbb52b37cd8e8d16aee1960dd51bca7816549bfc2469298aaa"
     end
     on_intel do
-      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.5.0/intosql-0.5.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8e7cb60340f4b12bc1a04d084d7a72eb415fd8a2e1e97f29218dfa92966ee14a"
+      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.6.0/intosql-0.6.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1c7fde8b415f5a47acc5eb20e707f1d06fa10f13d164b439db9b29c1ef0a4894"
     end
   end
 
