@@ -1,27 +1,27 @@
 class Intosql < Formula
   desc "Spreadsheets, CSV and JSON into SQL your database accepts on the first try"
   homepage "https://intosql.com"
-  version "0.7.0"
+  version "0.8.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.7.0/intosql-0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "20297d853a711d9cd8215a01856fc8b6fd74c472ba29b35a6ccd66af862b067d"
+      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.8.0/intosql-0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f13b472b4de47b294808e18f7c7ab41822de557f9935c286f87151ab04540e96"
     end
     on_intel do
-      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.7.0/intosql-0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "524d2605c24611e3797a28a889a84bececb5ea982498737c6a57d0bbddface6a"
+      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.8.0/intosql-0.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ca4d809712cfe0c7c01e4923c299a4e60652cc177f9d336c5ff2e9926fab7951"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.7.0/intosql-0.7.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "87bfcc110c9f4a99c49f9eaa26f4e1e28ccc424db6c0d0cd1f65eb93310e9ab4"
+      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.8.0/intosql-0.8.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d3fc6b26308e6ec80fe27bbbf02b2ca0c94fe099dc096b9273e1a57fd8be0b19"
     end
     on_intel do
-      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.7.0/intosql-0.7.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "661e9f727036b6d930ac5a3ead26736b86f815f992eb040fc260ecfcbd9152a7"
+      url "https://github.com/alfonsobries/intosql-releases/releases/download/cli-v0.8.0/intosql-0.8.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "94e66a8246ee56b9a03f5533a84ad562a5cae7853a811dc64987823c35f69074"
     end
   end
 
